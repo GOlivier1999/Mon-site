@@ -1,0 +1,108 @@
+
+/* 
+    fichier CSS pour la page Lecture
+    Guillaume OLIVIER
+*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-size: 24px;
+    background-color: antiquewhite;
+}
+
+#en-tete /*Propriétés pour la div avec l'id en-tete*/
+{
+
+    width : border-box; 
+    margin-top: 5px;   
+    margin-bottom: 0px;
+    background-color: rgba(110, 111,68,0.3);
+
+
+}
+#corps /*Propriétés pour la div avec l'id corps*/
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family      : "Brush Script MT";
+    float:left;
+    
+}
+
+/*Propriétés pour les niveaux de titres*/
+h1
+{
+    color            : black;
+    font-size: 2vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-family      : "OCR A Std";
+}
+h2{
+    font-style: italic;
+    color            : white;
+    font-size: 1.7vw;
+    font-weight      : bold;
+    font-family      : "New Century Schoolbook";
+}
+
+h3
+{    
+    font-size:1.5vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-style     : italic;
+    text-decoration: underline;
+    font-family      : "New Century Schoolbook";
+}
+
+h4{
+    font-size:1.5vw;
+    font-weight      : bold;
+    text-align       : right;
+    font-family      : "Calibri";
+}
+
+/*Propriétés pour le tableau*/
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color:rgba(110, 111,68,0.3) ;
+    color: #fff;
+}
+
+/*Propriétés pour la mise en page du texte*/
+.alinea{
+   margin-left: 5%; 
+}
+
+.double_alinea{
+    margin-left: 10%; 
+}
+.red{
+    color: red;
+}
+.beige{
+    color: rgba(245, 245,220,0.75);
+}
+.bold{
+    font-weight      : bold;
+}
+
+.white{
+    color: white;
+}
+.brown{
+    color:chocolate
+}
+.yellow{
+    color: rgb(255,215,0);
+}
+

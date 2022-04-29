@@ -1,0 +1,139 @@
+
+/* 
+    fichier CSS pour la page Peinture
+    Guillaume OLIVIER
+*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+#en-tete /*Propriétés pour la div avec l'id en-tete*/
+{
+
+    width : border-box; 
+    margin-top: 5px;   
+    margin-bottom: 0px;
+    background-color: rgba(110, 111,68,0.3);
+
+
+}
+#corps /*Propriétés pour la div avec l'id corps*/
+{
+    margin-top: 15px;
+    font-family      : "Brush Script MT";
+    float:left;
+    width: 30%;
+    
+}
+
+/*Propriétés pour les niveaux de titres*/
+h1
+{
+    color            : black;
+    font-size: 2vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-family      : "OCR A Std";
+}
+h2{
+    font-style: italic;
+    color            : white;
+    font-size: 1.7vw;
+    font-weight      : bold;
+    font-family      : "New Century Schoolbook";
+}
+
+h3
+{    
+    font-size:1.5vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-style     : italic;
+    text-decoration: underline;
+    font-family      : "New Century Schoolbook";
+}
+
+h4{
+    font-size:1.5vw;
+    font-weight      : bold;
+    text-align       : right;
+    font-family      : "Calibri";
+}
+
+
+/*Propriétés pour le tableau*/
+table,
+td {
+    border: 1px solid #333;
+    font-size:1.4vw;
+}
+
+thead,
+tfoot {
+    background-color:rgba(110, 111,68,0.3) ;
+    color: #fff;
+}
+
+/*Propriétés pour le diaporama*/
+.d1{
+    width: 800px;
+    height: 400px;
+    padding-top: 35%;
+    margin-left: 35%;
+    margin-right: auto;
+    
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+
+/*mise en pause de l'image lorsque l'on passe la souris*/
+.d1:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url("Monet\ -\ bassin\ aux\ Nymphéas.jpg");}
+    33.33%{background-image: url("Delacroix\ -\ la\ liberté\ guidant\ le\ peuple.jpg");}
+    66.67%{background-image: url("El\ Greco\ -\ Le\ songe\ de\ Philippe\ II\(1\).jpg");}
+    100%{background-image: url("Brueghel\ -\ Enée\ conduit\ aux\ Enfers\ par\ la\ Sibylle.jpg");}
+}
+
+/*Propriétés pour la mise en page du texte*/
+.alinea{
+   margin-left: 5%; 
+}
+
+.double_alinea{
+    margin-left: 10%; 
+}
+.red{
+    color: red;
+}
+.beige{
+    color: rgba(245, 245,220,0.75);
+}
+.bold{
+    font-weight      : bold;
+}
+
+.white{
+    color: white;
+}
+.brown{
+    color:chocolate
+}
+.black{
+    color:black;
+}
+.yellow{
+    color: rgb(255,215,0);
+}
+

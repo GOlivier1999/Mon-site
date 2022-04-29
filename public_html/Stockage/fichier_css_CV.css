@@ -1,0 +1,177 @@
+
+/* 
+    fichier CSS pour la page CV
+    Guillaume OLIVIER
+*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-size: 16px;
+    
+}
+#menu_droite /*Propriétés pour la div avec l'id menu_droite*/
+{
+    width:25%;
+    min-height: 280vh ;
+    padding:0px;
+    float:left;
+    background-color: rgba(249,82,56,0.95);
+}
+
+.logo_epf
+{
+ margin-top: 5vh;
+ width: 70%;
+ justify-content: center;
+
+}
+.photo_Guillaume
+{
+    margin-top: 5vh;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+/*rédefinition des propriétés de l'image lorsque l'on passe la souris*/
+.photo_Guillaume:hover
+{
+    margin-top: 5vh;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 5vh;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
+#en-tete /*Propriétés pour la div avec l'id en-tete*/
+{
+
+    width : border-box; 
+    margin-top: 5px;
+    margin-left: 25%;
+    margin-bottom: 0px;
+    background-color: rgba(110, 111,68,0.3);
+
+
+}
+#corps /*Propriétés pour la div avec l'id corps*/
+{
+    margin-left: 30%;
+    
+}
+
+/*Propriétés pour les niveaux de titres*/
+h1
+{
+    color            : black;
+    font-size: 2vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-family      : "Calibri";
+}
+h2{
+    font-style: italic;
+    color            : black;
+    font-size: 2vw;
+    font-weight      : bold;
+    text-align       : left;
+    font-family      : "Calibri";
+}
+
+h3
+{    
+    font-size:1.5vw;
+    font-weight      : bold;
+    text-align       : right;
+    font-family      : "Calibri";
+}
+
+h4
+{
+    font-size: 1.2vw;
+    text-align       : left;
+    font-family      : "Calibri";
+}
+
+h5
+{
+    font-style: italic;
+    color            : black;
+    font-size: 1.2vw;
+    font-weight      : bold;
+    text-align       : center;
+    font-family      : "Calibri";
+    
+}
+
+/*Propriétés pour la mise en page du texte*/
+.alinea{
+   margin-left: 5%; 
+}
+
+.double_alinea{
+    margin-left: 10%; 
+}
+.red{
+    color: red;
+}
+.beige{
+    color: rgba(245, 245,220,0.75);
+}
+.bold{
+    font-weight      : bold;
+}
+
+.white{
+    color: white;
+}
+
+.lisere{
+    background:linear-gradient (
+#fff 0%,
+#fff 45%,
+#7c8d07 46%,
+#7c8d07 54%,  
+#fff 54%,
+#fff 100%);
+background:-webkit-linear-gradient(
+#fff 0%,
+#fff 45%,
+#7c8d07 46%,
+#7c8d07 54%,  
+#fff 54%,
+#fff 100%);
+background:    -moz-linear-gradient(
+#fff 0%,
+#fff 45%,
+#7c8d07 46%,
+#7c8d07 54%,  
+#fff 54%,
+#fff 100%);
+background:     -ms-linear-gradient(
+#fff 0%,
+#fff 45%,
+#7c8d07 46%,
+#7c8d07 54%,  
+#fff 54%,
+#fff 100%);
+background:      -o-linear-gradient(
+#fff 0%,
+#fff 45%,
+#7c8d07 46%,
+#7c8d07 54%,  
+#fff 54%,
+#fff 100%);
+}
+lisere span{
+background:#fff;padding:0 20px;
+}
